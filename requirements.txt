@@ -1,0 +1,11 @@
+# Dependencias do ETL de ovitrampas
+# Instalar com:  pip install -r requirements.txt
+#
+# Verificadas nesta maquina (Python 3.13.4).
+
+# Leitura da planilha .xlsx e manipulacao dos DataFrames.
+# openpyxl e o engine usado em pd.read_excel(engine="openpyxl").
+pandas==3.0.6
+openpyxl==3.1.5
+
+# sqlite3 e parte da biblioteca padrao do Python - nao precisa instalar.
